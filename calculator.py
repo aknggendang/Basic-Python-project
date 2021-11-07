@@ -40,14 +40,6 @@ while True:
 
 
 
-"""
-if you have opinions and suggestions, 
-you can follow and DM my instagram @retikulum_endoplasma022
-
-Keep calm & take it easy yor life
-"""
-    
-
 
 
 
