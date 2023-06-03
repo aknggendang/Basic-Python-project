@@ -8,11 +8,13 @@
 from statistics import mean
 from time import sleep
 
+
 def Average(l):
     avg = mean(l)
     return avg 
 
 nama_siswa = input('Nama siswa/siswi : ')
+gender = input("Jenis kelamin :")
 kelas = int(input("Kelas : "))
 jurusan = input("Jurusan : ")
 absen = int(input('No.Absen : '))
@@ -36,10 +38,12 @@ sleep(5)
 print("\n=============== Hasil ===============")
 
 print("\nNama :",nama_siswa)
+print("Jenis kelamin :",gender)
 print("Kelas :",kelas)
 print("Jurusan :",jurusan)
 print("No. Absen :",absen)
 print("Nilai Rata-rata Siswa : ",rata_rata)
+
 
 if rata_rata > 70:
     print("Siswa Dinyatakan LULUS")
