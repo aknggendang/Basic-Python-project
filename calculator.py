@@ -30,7 +30,7 @@ while True:
     if op == '+':
         print("\nresult = ",num1 + num2)
     elif op == '-':
-        print("\nresult = ",num1-num2)                       #Basic else if statement
+        print("\nresult = ",num1-num2)                      
     elif op == 'x':
         print("\nresult = ",num1*num2)
     elif op == '/':
